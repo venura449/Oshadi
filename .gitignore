@@ -1,0 +1,37 @@
+# datasets / outputs
+frames/
+runs/
+dataset/
+train/
+valid/
+test/
+snapshots/
+alerts/
+
+# videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# model weights
+*.pt
+*.onnx
+
+# caches / env
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+
+
+.env
+cctv2.mp4
+cctv.mp4
+
+entry_snapshots
+exit_snapshots
+
+
+Dockerfile*
+.dockerignore
